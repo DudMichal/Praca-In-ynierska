@@ -1,0 +1,152 @@
+::placeholder {
+    color: white;
+
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i {
+    color: #fff
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+.center-placeholder {
+    text-align: center;
+}
+
+/* Dodaj do swojego arkusza stylów CSS */
+.card {
+    cursor: pointer;
+    transition: border-color 0.3s; /* Zmieniamy kolor obramowania */
+    margin-bottom: 2vh; /* Dla odstępu między kafelkami - używamy VH (viewport height) */
+    border: 1px solid #dee2e6; /* Domyślny kolor obramowania */
+}
+
+.usluga-card .card {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Wysokość karty zajmuje 100% dostępnej przestrzeni */
+}
+
+.usluga-card.selected .card {
+    border: 2px solid rgb(0, 204, 255); /* Kolor obramowania dla zaznaczonego kafelka */
+}
+
+#uslugiContainer {
+    margin: auto;
+}
+/* Dodaj do swojego arkusza stylów CSS */
+.pracownik-card {
+    cursor: pointer;
+    transition: border-color 0.3s; /* Zmieniamy kolor obramowania */
+    margin: auto; /* Centrowanie kafelka */
+    margin-bottom: 2vh; /* Dla odstępu między kafelkami - używamy VH (viewport height) */
+    width: 80%; /* Dostosowanie szerokości kafelka */
+    max-width: 300px; /* Maksymalna szerokość kafelka */
+
+}
+
+.pracownik-card .card {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Wysokość karty zajmuje 100% dostępnej przestrzeni */
+}
+
+.pracownik-card.selected .card {
+    border: 2px solid rgb(0, 204, 255); /* Kolor obramowania dla zaznaczonego kafelka */
+}
+
+#pracownicyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Dodaj do swojego arkusza stylów CSS */
+.godzina-card {
+    cursor: pointer;
+    transition: border-color 0.3s; /* Zmieniamy kolor obramowania */
+    margin: auto; /* Centrowanie kafelka */
+    margin-bottom: 2vh; /* Dla odstępu między kafelkami - używamy VH (viewport height) */
+    width: 80%; /* Dostosowanie szerokości kafelka */
+    max-width: 300px; /* Maksymalna szerokość kafelka */
+
+}
+
+.godzina-card .card {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Wysokość karty zajmuje 100% dostępnej przestrzeni */
+}
+
+.godzina-card.selected .card {
+    border: 2px solid rgb(0, 204, 255); /* Kolor obramowania dla zaznaczonego kafelka */
+}
+
+#godzinyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
